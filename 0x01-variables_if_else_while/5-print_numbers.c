@@ -6,10 +6,11 @@
  */
 int main(void)
 {
-	int lm;
+	int num;
 
-	for (lm = 0; lm <= 9; lm++)
+	for (num = 0; num < 10; num++)
 		printf("%d", num);
+
 
 	printf("\n");
 	return (0);
